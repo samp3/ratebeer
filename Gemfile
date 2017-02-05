@@ -38,7 +38,6 @@ group :development, :test do
   gem 'pry-rails'
 end
 
-ruby '2.3.3'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
@@ -61,3 +60,8 @@ group :development, :test do
   gem "better_errors"
 end
 
+
+gem 'bcrypt', platforms: :ruby
+ruby '2.3.3'
+gem 'tzinfo-data'
+gem 'coffee-script-source', '1.8.0'
